@@ -11,7 +11,7 @@ from dur_swap_logger import create_log
 #   information from Praat TextGrid files and
 #   creates new Duration Tiers which will
 #   effectively "swap" the duration of the
-#   active and passive verb stems.
+#   active and passive verb stem vowels.
 #
 #
 #

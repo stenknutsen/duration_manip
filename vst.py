@@ -29,7 +29,7 @@ def vowel_strectching_time(file_name, begin_v, end_v, percent_legnthen):
     tier_name = ("dur_"+ file_name.split(".")[0])
 
     file_name = ("/Users/stenknutsen/Desktop/IO_folder/dur_"+file_name.split(".")[0]+".praat")
-    
+
     file = open(file_name,'a')
     file.write('Create DurationTier: \"'+tier_name+'\", '+ str(begin_vowel)+', '+str(end_vowel)+'\n')
     file.write('Add point: '+str(begin_vowel)+', 1\n')
